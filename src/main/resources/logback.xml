@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 	<contextName>spring-boot-web-security-mysql</contextName>
-	<jmxConfigurator/>
 
 	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
@@ -16,10 +15,17 @@
 		<includeCallerData>true</includeCallerData>
 	</appender>
 
+	<!--This rule is at the heart of logback. It assumes that levels are ordered
+		as follows: TRACE < DEBUG < INFO < WARN < ERROR. -->
+
 	<logger name="br.com.jpb" level="INFO"/>
 	<logger name="net.sf.ehcache" level="WARN"/>
 	<logger name="org.apache" level="WARN"/>
 	<logger name="org.hibernate" level="WARN"/>
 	<logger name="org.springframework" level="WARN"/>
 	<logger name="org.flywaydb" level="INFO"/>
+
+	<root level="WARN">
+		<appender-ref ref="ASYNC_STDOUT"/>
+	</root>
 </configuration>

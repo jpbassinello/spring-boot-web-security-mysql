@@ -5,7 +5,7 @@
 	<groupId>br.com.jpb</groupId>
 	<artifactId>spring-boot-web-security-mysql</artifactId>
 	<name>spring-boot-web-security-mysql</name>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<version>1.0.0-SNAPSHOT</version>
 
 	<properties>
@@ -63,7 +63,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
@@ -125,10 +124,6 @@
 			<version>1.3.2</version>
 		</dependency>
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>javax.inject</groupId>
 			<artifactId>javax.inject</artifactId>
 			<version>1</version>
@@ -143,13 +138,14 @@
 			<artifactId>guava</artifactId>
 			<version>19.0</version>
 		</dependency>
-		<!-- janino for conditional logback -->
 		<dependency>
-			<groupId>org.codehaus.janino</groupId>
-			<artifactId>janino</artifactId>
-			<version>3.0.6</version>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
 		</dependency>
-		<!-- janino for conditional logback -->
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>

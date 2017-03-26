@@ -34,7 +34,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 				.permitAll()
 				.and()
 				.logout()
-				.logoutUrl("/j_spring_security_logout")
+				//				.logoutUrl("/j_spring_security_logout")
 				.logoutSuccessUrl("/");
 	}
 
@@ -43,6 +43,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		web
 				.ignoring()
 				.antMatchers("/")
-				.antMatchers("/user/");
+				.antMatchers("/resources/**");
 	}
 }
