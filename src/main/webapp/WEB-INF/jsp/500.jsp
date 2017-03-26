@@ -4,24 +4,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Avalia&ccedil;&atilde;o</title>
+	<title>Unexpected Server Error</title>
 	<c:import url="/WEB-INF/jsp/inc/head.jsp"/>
 </head>
 <body>
-<c:import url="/WEB-INF/jsp/inc/header.jsp"/>
 
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12">
-			<h1 class="text-center">Desculpe, mas ocorreu um erro que
-				n&atilde;o est&aacute;vamos esperando. Por favor, entre em contato
-				com os respons&aacute;veis.</h1>
+			<h1 class="text-center">Unexpected Server Error</h1>
 		</div>
 	</div>
 </div>
 
 <c:import url="/WEB-INF/jsp/inc/js.jsp"/>
-<c:import url="/WEB-INF/jsp/inc/analytics.jsp"/>
 
 </body>
 </html>

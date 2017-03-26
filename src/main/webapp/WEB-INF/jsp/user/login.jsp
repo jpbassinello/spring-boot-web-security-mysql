@@ -1,5 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <head>
 	<title>Login</title>
@@ -13,14 +14,14 @@
 
 			<c:import url="/WEB-INF/jsp/inc/messagesWithSpringSecurity.jsp"/>
 
-			<form action="<c:url value='/login' />" method="post">
+			<form:form action="/j_spring_security_check" method="post">
 				<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 				<div class="form-group">
-					<input type="email" class="form-control" name="username"
+					<input type="email" class="form-control" name="j_username"
 						   placeholder="Email" required="required"/>
 				</div>
 				<div class="form-group">
-					<input type="password" class="form-control" name="password"
+					<input type="password" class="form-control" name="j_password"
 						   placeholder="Password" required="required"/>
 				</div>
 				<div class="text-center">
@@ -28,7 +29,7 @@
 						<i class="fa fa-send"></i> Submit
 					</button>
 				</div>
-			</form>
+			</form:form>
 		</div>
 	</div>
 </div>

@@ -18,7 +18,8 @@
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-navbar-collapse">
-			<form action="/logout" method="post" class="navbar-form navbar-right" id="form" name="form">
+			<form action="/j_spring_security_logout" method="post" class="navbar-form navbar-right" id="form"
+				  name="form">
 				<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 				<button type="submit" class="btn btn-default">
 					<i class="fa fa-sign-out"></i> Logout

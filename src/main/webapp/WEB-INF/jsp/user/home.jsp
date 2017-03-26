@@ -13,8 +13,7 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12">
-			<t:defaultPanel fontAwesomeIcon="fa-files-o"
-							headingTitle="Avalia&ccedil;&atilde;o: </b> ${CURRENT_ASSESSMENT.name}">
+			<t:defaultPanel fontAwesomeIcon="fa-files-o" headingTitle="Content">
 				<div class="row" style="margin: 55px 0;">
 					<div class="col-xs-12">
 						Content Goes Here!
