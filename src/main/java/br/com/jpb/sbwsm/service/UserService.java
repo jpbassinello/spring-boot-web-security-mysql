@@ -2,10 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.jpb.assessment.service;
+package br.com.jpb.sbwsm.service;
 
-import br.com.jpb.assessment.model.QUser;
-import br.com.jpb.assessment.model.User;
+import br.com.jpb.sbwsm.model.QUser;
+import br.com.jpb.sbwsm.model.User;
 import com.querydsl.jpa.impl.JPAQuery;
 import org.assertj.core.util.Strings;
 import org.hibernate.annotations.QueryHints;
@@ -14,7 +14,6 @@ import javax.inject.Named;
 import javax.inject.Singleton;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import java.util.Collections;
 import java.util.List;
 
 @Named

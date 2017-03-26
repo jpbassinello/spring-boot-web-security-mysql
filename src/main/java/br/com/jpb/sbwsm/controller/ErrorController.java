@@ -1,4 +1,4 @@
-package br.com.jpb.assessment.controller;
+package br.com.jpb.sbwsm.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;

@@ -23,7 +23,7 @@
 	<cache name="org.hibernate.cache.spi.UpdateTimestampsCache"
 		   maxElementsInMemory="5000" eternal="true" overflowToDisk="false"/>
 
-	<cache name="br.com.jpb.assessment.model.User"
+	<cache name="br.com.jpb.sbwsm.model.User"
 		   maxElementsInMemory="30" eternal="false" timeToIdleSeconds="86400"
 		   timeToLiveSeconds="86400" overflowToDisk="false" statistics="true"/>
 

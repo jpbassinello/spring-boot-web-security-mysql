@@ -1,4 +1,4 @@
-package br.com.jpb.assessment.config;
+package br.com.jpb.sbwsm.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.encoding.Md5PasswordEncoder;

@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.jpb.assessment.model;
+package br.com.jpb.sbwsm.model;
 
 import lombok.AccessLevel;
 import lombok.EqualsAndHashCode;

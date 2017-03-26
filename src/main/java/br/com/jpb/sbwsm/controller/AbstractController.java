@@ -1,4 +1,4 @@
-package br.com.jpb.assessment.controller;
+package br.com.jpb.sbwsm.controller;
 
 import com.google.common.base.Joiner;
 import org.springframework.ui.ModelMap;
