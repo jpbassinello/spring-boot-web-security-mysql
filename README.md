@@ -8,3 +8,4 @@ Initial project with spring boot for web, MySQL database and Spring WebMVC.
 * QueryDSL
 * Bootstrap 3 and FontAwesome
 * Default User database with login page and Spring Security integration
+* RestController with integration test
